@@ -227,12 +227,6 @@ function loaders() {
               importLoaders: 1,
             },
           },
-          {
-            loader: "sass-loader",
-            options: {
-              implementation: require("sass"),
-            },
-          },
         ],
       },
       { test: /\.gif|\.svg|\.png|\.jpg|\.jpeg$/, loader: "ignore-loader" },
