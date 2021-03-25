@@ -224,8 +224,7 @@ function loaders() {
             options: {
               importLoaders: 1
             }
-          },
-          "sass-loader"
+          }
         ]
       },
       { test: /\.gif|\.svg|\.png|\.jpg|\.jpeg$/, loader: "ignore-loader" }
