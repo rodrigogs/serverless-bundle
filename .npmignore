@@ -4,3 +4,8 @@ tests
 yarn.lock
 yarn-error.log
 .travis.yml
+.idea
+*.iml
+.github
+.eslintignore
+.eslintrc.json

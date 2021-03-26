@@ -1,4 +1,4 @@
-# serverless-bundle [![Build Status](https://travis-ci.com/AnomalyInnovations/serverless-bundle.svg?branch=master)](https://travis-ci.com/AnomalyInnovations/serverless-bundle) [![npm](https://img.shields.io/npm/v/serverless-bundle.svg)](https://www.npmjs.com/package/serverless-bundle)
+# serverless-bundle [![Build Status](https://travis-ci.com/rodrigogs/serverless-bundle.svg?branch=master)](https://travis-ci.com/rodrigogs/serverless-bundle) [![npm](https://img.shields.io/npm/v/serverless-bundle.svg)](https://www.npmjs.com/package/serverless-bundle)
 
 serverless-bundle is a [Serverless Framework](https://www.serverless.com) plugin that optimally packages your ES6 or TypeScript Node.js Lambda functions with sensible defaults so you **don't have to maintain your own Webpack configs**. It uses the [serverless-webpack](https://www.github.com/serverless-heaven/serverless-webpack) plugin internally.
 
@@ -80,8 +80,8 @@ To run your tests using the same Babel config used in the plugin add the followi
 ```
 
 We also have a couple of template repos to help you get started:
-- [Serverless Node.js Starter](https://github.com/AnomalyInnovations/serverless-nodejs-starter)
-- [Serverless TypeScript Starter](https://github.com/AnomalyInnovations/serverless-typescript-starter)
+- [Serverless Node.js Starter](https://github.com/rodrigogs/serverless-nodejs-starter)
+- [Serverless TypeScript Starter](https://github.com/rodrigogs/serverless-typescript-starter)
 
 ## Usage
 
@@ -181,7 +181,7 @@ custom:
 
 - Usage with WebStorm
 
-  Here is some info on how to get this plugin to support running tests in WebStorm — https://github.com/AnomalyInnovations/serverless-bundle/issues/5#issuecomment-582237396
+  Here is some info on how to get this plugin to support running tests in WebStorm — https://github.com/rodrigogs/serverless-bundle/issues/5#issuecomment-582237396
 
 - Alternative Jest Result Processor
 
@@ -217,7 +217,7 @@ So if serverless-bundle detects these in your `tsconfig.json`, it'll print the f
 serverless-bundle: CommonJS, ES3, or ES5 are not supported
 ```
 
-More on [this issue here](https://github.com/AnomalyInnovations/serverless-bundle/issues/124).
+More on [this issue here](https://github.com/rodrigogs/serverless-bundle/issues/124).
 
 #### ForkTsCheckerWebpackPlugin
 
@@ -282,7 +282,7 @@ custom:
 
 #### Sequelize
 
-To use the [Sequelize](https://github.com/sequelize/sequelize) package along with [pg](https://github.com/brianc/node-postgres/tree/master/packages/pg), you'll need to ignore it from Webpack and using the `dialectModule` option. [Read more](https://github.com/AnomalyInnovations/serverless-bundle/issues/45#issuecomment-594237314) here.
+To use the [Sequelize](https://github.com/sequelize/sequelize) package along with [pg](https://github.com/brianc/node-postgres/tree/master/packages/pg), you'll need to ignore it from Webpack and using the `dialectModule` option. [Read more](https://github.com/rodrigogs/serverless-bundle/issues/45#issuecomment-594237314) here.
 
 In your `serverless.yml`:
 
@@ -430,7 +430,7 @@ The two options (`externals` and `forceExclude`) look similar but have some subt
 
 ## Support
 
-- Open a [new issue](https://github.com/AnomalyInnovations/serverless-bundle/issues/new) if you've found a bug or have some suggestions.
+- Open a [new issue](https://github.com/rodrigogs/serverless-bundle/issues/new) if you've found a bug or have some suggestions.
 - Or submit a pull request!
 
 ## Running Locally
@@ -438,7 +438,7 @@ The two options (`externals` and `forceExclude`) look similar but have some subt
 To run this project locally, clone the repo and initialize the project.
 
 ```bash
-$ git clone https://github.com/AnomalyInnovations/serverless-bundle
+$ git clone https://github.com/rodrigogs/serverless-bundle
 $ cd serverless-bundle
 $ npm install
 ```
