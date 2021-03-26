@@ -1,4 +1,4 @@
-# serverless-bundle [![Build Status](https://img.shields.io/github/workflow/status/AnomalyInnovations/serverless-bundle/CI)](https://github.com/AnomalyInnovations/serverless-bundle/actions/workflows/ci.yml) [![npm](https://img.shields.io/npm/v/serverless-bundle.svg)](https://www.npmjs.com/package/serverless-bundle)
+# serverless-bundle [![Build Status](https://img.shields.io/github/workflow/status/rodrigogs/serverless-bundle/CI)](https://github.com/rodrigogs/serverless-bundle/actions/workflows/ci.yml) [![npm](https://img.shields.io/npm/v/@rodrigogs/serverless-bundle.svg)](https://www.npmjs.com/package/@rodrigogs/serverless-bundle)
 
 serverless-bundle is a [Serverless Framework](https://www.serverless.com) plugin that optimally packages your ES6 or TypeScript Node.js Lambda functions with sensible defaults so you **don't have to maintain your own Webpack configs**. It uses the [serverless-webpack](https://www.github.com/serverless-heaven/serverless-webpack) plugin internally.
 
@@ -443,7 +443,7 @@ The three options (`externals`, `forceExclude`, and `excludeFiles`) look similar
 
 ## Support
 
-- Open a [new issue](https://github.com/AnomalyInnovations/serverless-bundle/issues/new) if you've found a bug or have some suggestions.
+- Open a [new issue](https://github.com/rodrigogs/serverless-bundle/issues/new) if you've found a bug or have some suggestions.
 - Or submit a pull request!
 
 ## Running Locally
@@ -451,7 +451,7 @@ The three options (`externals`, `forceExclude`, and `excludeFiles`) look similar
 To run this project locally, clone the repo and initialize the project.
 
 ```bash
-$ git clone https://github.com/AnomalyInnovations/serverless-bundle
+$ git clone https://github.com/rodrigogs/serverless-bundle
 $ cd serverless-bundle
 $ npm install
 ```
