@@ -1,3 +1,4 @@
+const path = require('path')
 const { runSlsCommand, clearNpmCache, errorRegex } = require("../helpers");
 
 beforeEach(async () => {
@@ -9,7 +10,11 @@ afterAll(async () => {
 });
 
 test("nested-service", async () => {
-  const result = await runSlsCommand(__dirname);
+  try {
+    const result = await runSlsCommand(path.resolve(__dirname, 'services', 'main'));
 
-  expect(result).not.toMatch(errorRegex);
-});
+    expect(result).not.toMatch(errorRegex);
+  } catch (err) {
+    console.error(err)
+  }
+}, 300000);
